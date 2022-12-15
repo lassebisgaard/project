@@ -1,19 +1,24 @@
 body {
     margin: 0;
-    background: #222;
+    background: #2E6171;
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
 }
 
 .container {
     width: 80%;
-    margin: 0 auto;    
+    margin: 20 auto;    
 }
 
 header {
-    background: #000
+    background: #363636;
 }
 
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
 
 .logo {
     float: left;
@@ -33,11 +38,11 @@ ul {
 li {
     display: inline-block;
     margin-right: 70px;
-    padding-top: 23px;
+    padding-top: 60px;
 }
 
 a {
-    color: #444;
+    color: #fff;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
