@@ -11,33 +11,39 @@ body {
 }
 
 header {
-    background: #ff34ff
+    background: #000
+}
+
+
+.logo {
+    float: left;
+    width: 7%;
 }
 
 nav {
     float: right;
 }
 
-nav ul {
+ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-nav li {
+li {
     display: inline-block;
-    margin-left: 70px;
+    margin-right: 70px;
     padding-top: 23px;
 }
 
-nav a {
-    color: #34f222
+a {
+    color: #444;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
 }
 
-nav a:hover {
-    color: #000
 
+a:hover {
+    color: #000
 }
