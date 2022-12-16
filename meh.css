@@ -37,3 +37,7 @@ header nav ul li a {
   color: #fff;;
 }
 
+a:hover {
+  color: red;
+}
+
