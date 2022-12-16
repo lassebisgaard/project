@@ -3,9 +3,12 @@ body {
 }
 
 
-.logo {
-    float: left;
-    width: 7%;
+.logo{
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -6px;
 }
 
 ul {
