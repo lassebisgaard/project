@@ -27,7 +27,6 @@ header nav ul {
 
 header nav ul li {
   display: inline-block;
-  float: left;
   list-style: none;
   padding: 0 16px;
 }
@@ -79,6 +78,9 @@ p {
   color: black;
 }
 
+
+
+
 @media (max-width: 600px) {
   p {  
     font-size: 5.2vw;
@@ -99,5 +101,31 @@ p {
     font-weight: bold;
     color: black;
   }
+
+
+  .grid-container {
+    display: grid;
+    grid-template-rows: 100px;
+    grid-template-areas: 
+    'a'
+    'b'
+    'c'
+  
+  
+  ;
+  }
+
+
+  .item1 {
+    grid-area: a;
+
+  }
+
+
+  .item2 {
+    grid-area: b;
+    justify-content: center;
+  }
+
 
 }
