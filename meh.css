@@ -14,6 +14,16 @@ header {
   height: 50px;
 }
 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #363636;
+  color: #fff;
+  text-align: center;
+}
+
 nav {
   display: inline-block;
   margin: 15px auto;
@@ -56,6 +66,15 @@ a:hover {
   max-height: auto;
 }
 
+.social {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+  margin-left: 3.5%;
+  max-width: 75px;
+  max-height: 75px;
+}
 
 h1 { 
   text-align: center;
@@ -231,5 +250,13 @@ p {
   .item12 {
     grid-area: l;
   }
-  
+
+  .social {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 75px;
+    max-height: 75px;
+  }
 }
