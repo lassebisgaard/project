@@ -164,6 +164,9 @@ p {
 }
 
 .sprite {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 500px;
   height: 500px;
   background: url('billeder/sprite.png') 0 0 no-repeat;
@@ -197,7 +200,7 @@ p {
     color: black;
   }
 
-
+   
   .grid-container {
     display: grid;
     gap: 30px;
@@ -216,52 +219,6 @@ p {
     'l';
   }
 
-
-  .item1 {
-    grid-area: a;
-
-  }
-
-  .item2 {
-    grid-area: b;
-  }
-
-  .item3 {
-    grid-area: c;
-  }
-
-  .item4 {
-    grid-area: d;
-  }
-
-  .item5 {
-    grid-area: e;
-
-  }
-
-  .item6 {
-    grid-area: f;
-  }
-
-  .item7 {
-    grid-area: g;
-  }
-
-  .item8 {
-    grid-area: h;
-  }
-
-  .item10 {
-    grid-area: j;
-  }
-  
-  .item11 {
-    grid-area: k;
-  }
-  
-  .item12 {
-    grid-area: l;
-  }
 
   
   .social {
