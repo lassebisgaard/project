@@ -80,9 +80,10 @@ a:hover {
 
 h1 { 
   text-align: center;
-  font-size: 7vh;
+  font-size: 75px;
   padding: 10px;
   margin: 5%;
+  margin-bottom: 300px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   color: black;
@@ -94,7 +95,6 @@ p {
   font-size: 40px;
   text-align: center;
   margin: 2%;
-  line-height: 100%;
   letter-spacing: 0.6px;
   margin-top: 30px;
   color: black;
@@ -157,10 +157,12 @@ p {
 
 .item11 {
   grid-area: k;
+  margin-bottom: 300px;
 }
 
 .item12 {
   grid-area: l;
+  margin-bottom: 300px;
 }
 
 .sprite {
@@ -181,7 +183,7 @@ p {
 
 @media (max-width: 600px) {
   p {  
-    font-size: 5.2vw;
+    font-size: 24px;
     text-align: center;
     margin: auto;
     line-height: 100%;
@@ -192,6 +194,7 @@ p {
   }
 
   h1 { 
+    font-size: 50px;
     text-align: center;
     padding: 10px;
     margin: 5%;
@@ -219,7 +222,19 @@ p {
     'l';
   }
 
+  .item11 {
+    grid-area: k;
+    margin-bottom: 0px;
+  }
+  
+  .item12 {
+    grid-area: l;
+    margin-bottom: 0px;
+  }
 
+  header nav ul {
+    padding-inline-start: 0px;
+  }
   
   .social {
     display: block;
