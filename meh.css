@@ -162,7 +162,7 @@ p {
 }
 
 .sprite {
-  width: 500px;
+  max-width: 500px;
   height: 500px;
   background: url('billeder/sprite.png') 0 0 no-repeat;
   animation: play 4s steps(7) infinite;
@@ -261,15 +261,6 @@ p {
     grid-area: l;
   }
 
-  .sprite {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-    width: 500px;
-    height: 500px;
-    background: url(billeder/sprite.gif);
-  }
   
   .social {
     display: block;
