@@ -27,6 +27,9 @@ header {
   text-align: center;
 }
 
+footer {
+  margin-top: 200px;
+}
 nav {
   display: inline-block;
   margin: 15px auto;
@@ -157,12 +160,10 @@ p {
 
 .item11 {
   grid-area: k;
-  margin-bottom: 300px;
 }
 
 .item12 {
   grid-area: l;
-  margin-bottom: 300px;
 }
 
 .sprite {
@@ -222,14 +223,9 @@ p {
     'l';
   }
 
-  .item11 {
-    grid-area: k;
-    margin-bottom: 0px;
-  }
-  
-  .item12 {
-    grid-area: l;
-    margin-bottom: 0px;
+  .item1 {
+    grid-area: a;
+    margin-top: 75px;
   }
 
   header nav ul {
